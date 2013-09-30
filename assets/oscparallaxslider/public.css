@@ -1,0 +1,63 @@
+/**
+ * The files in /assets are unmodified.
+ * This file contains 
+ *    - resets, in an attempt to ensure sliders display properly in all themes
+ *    - modifications to the default sliders CSS
+ */
+
+ /* general resets */
+.oscparallaxslider {
+    position: relative;
+}
+
+.oscparallaxslider .caption {
+    padding: 5px 10px;
+}
+
+.oscparallaxslider img {
+    height: auto;
+    padding: 0;
+}
+
+.oscparallaxslider li:before,
+.oscparallaxslider li:after {
+    content: "" !important;
+}
+
+.oscparallaxslider .caption-wrap {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: black;
+    color: white;
+    line-height: 30px;
+    opacity: 0.7;
+    margin: 0;
+    display: block;
+    width: 100%;
+}
+
+/** quick resets **/
+#widgets .oscparallaxslider ul,
+#widgets .oscparallaxslider ol,
+.oscparallaxslider .flexslider ul,
+.oscparallaxslider .flexslider .slides li,
+.oscparallaxslider .flexslider .slides ul,
+.oscparallaxslider .flexslider .slides ol,
+.oscparallaxslider .flexslider .flex-direction-nav,
+.oscparallaxslider .flexslider .flex-direction-nav li
+ {
+    border: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    margin: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    list-style-type: none;
+    list-style: none;
+    padding: 0;
+}
